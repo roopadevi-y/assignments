@@ -69,5 +69,18 @@ console.log(`Title of the book: "${bookTitle}"`);
 const employees : number = 500;
 console.log(`Number of employees in the company: ${employees}`);
 //16.Time of an event: 2:30 PM
+const eventTime : string = "2:30 PM";
+console.log(`Time of the event: ${eventTime}`);
+
 //17.Name of a country: "United States"
+interface Country {
+  name : string;
+}
+const country: Country = {
+  name : "United States"
+};
+console.log(`Name of the country: "${country.name}"`);
+
 //20. Distance between two cities: 200.5
+let Distance : number = 200.5
+console.log(`Distance between two cities: ${Distance}`);
