@@ -7,10 +7,10 @@ let isOrder:boolean = true
 console.log("Whether a customer has placed an order:"+isOrder);
 
 //3. Person's phone number: "123-456-7890"
-let Mobile: any = "123-456-7890";
+let Mobile:any = "123-456-7890";
 console.log("Person's phone number:"+Mobile);
 //4. Amount of money in a customer's bank account: 1000.50
-let Amount : number = 1000.50;
+let Amount:number = 1000.50;
 console.log("Amount of money in a customer's bank account:"+Amount);
 
 //5. Person's email address: "john.doe@example.com"
@@ -21,13 +21,13 @@ console.log("Amount of money in a customer's bank account:"+Amount);
 //18.Person's eye color: "Brown"
 //19.Person's birthplace: "New York City"
 interface Person {
-  //name: string;
-  emailAddress: string;
-  maritialStatus : boolean;
-  Occupation : string;
-  bloodType : string;
-  eyeColor : string;
-  birthPlace : string;
+  //name:string;
+  emailAddress:string;
+  maritialStatus:boolean;
+  Occupation:string;
+  bloodType:string;
+  eyeColor:string;
+  birthPlace:string;
 }
 const person: Person = {
   //name: Person;
