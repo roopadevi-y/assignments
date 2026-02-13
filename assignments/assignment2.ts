@@ -33,13 +33,12 @@ function evaluateLoanApplication(
   }
 }
 
-
 // Customer Details
-const customerName = "John Doe";
-const creditScore = 720;
-const income = 55000.0;
-const isEmployed = true;
-const debtToIncomeRatio = 35.0;
+let customerName:string = "John Doe";
+let creditScore:number = 720;
+let income:number = 55000.0;
+let isEmployed:boolean = true;
+let debtToIncomeRatio:number = 35.0;
 
 const result = evaluateLoanApplication(
   customerName,
