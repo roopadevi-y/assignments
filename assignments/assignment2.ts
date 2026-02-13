@@ -40,7 +40,7 @@ let income:number = 55000.0;
 let isEmployed:boolean = true;
 let debtToIncomeRatio:number = 35.0;
 
-const result = evaluateLoanApplication(
+let result = evaluateLoanApplication(
   customerName,
   creditScore,
   income,
