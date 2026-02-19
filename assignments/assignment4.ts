@@ -21,7 +21,7 @@ let suspiciousCount: number = 0;
 //Step 3: Loop through transactions
 for (let i = 0; i < transactions.length; i++) {
   let amount: number = transactions[i];
-
+  
   // Step 4: Check credit or debit
   if (amount > 0) {
     creditCount++;
@@ -44,10 +44,7 @@ for (let i = 0; i < transactions.length; i++) {
 // Step 7 : Print Results
 console.log("Total Credit Transactions:", creditCount);
 console.log("Total Debit Transactions:", debitCount);
-
 console.log("Total Amount Credited in account:", totalCredit);
 console.log("Total Amount Debited in account:", Math.abs(totalDebit));
-
 console.log("Final Remaining Balance:", balance);
-
 console.log("Total Suspicious Transactions:", suspiciousCount);
